@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
       - name: flask-api
-        image: ghcr.io/tom9eiger/example-application/backend-demo:latest
+        image: ghcr.io/ralphkube/example-application/backend-demo:latest
+        env:
+          - name: REDIS_HOST
+            value: redis
         imagePullPolicy: Always
         ports:
         - containerPort: 80

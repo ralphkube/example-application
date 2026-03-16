@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/tom9eiger/example-application/frontend-demo:latest
+        image: ghcr.io/ralphkube/example-application/frontend-demo:latest
         imagePullPolicy: Always
         env:
           - name: BACKEND_URL
