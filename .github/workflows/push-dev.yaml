@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'frontend/**'
+      - 'backend/**'
+      - 'version'
+      - '.github/workflows/push-dev.yaml'
 
 env:
   REGISTRY: ghcr.io
