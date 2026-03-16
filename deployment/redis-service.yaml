@@ -9,4 +9,3 @@ spec:
     - port: 6379
       targetPort: 6379
   type: ClusterIP
-documents/github/example-application/deployment/redis-deployment.yaml
