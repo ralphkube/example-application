@@ -18,6 +18,6 @@ spec:
         imagePullPolicy: Always
         env:
           - name: BACKEND_URL
-            value: "http://flask-api-service.workshop-basic-app.svc.cluster.local"
+            value: http://flask-api-service
         ports:
         - containerPort: 80
